@@ -1,0 +1,453 @@
+body,
+div,
+ul,
+li,
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  padding:0;
+  margin:0;
+}
+#workExperience {
+  background-color: #F3F3F3;
+  padding-bottom: 10px;
+  clear:both;
+  font-size: 20px;
+  margin-bottom: 70px;
+  margin-top: 50px;
+}
+#work-1{
+  font-size: 39px;
+  color: #fff;
+  text-shadow: 0 1px 0 #ccc,
+               0 2px 0 #c9c9c9,
+               0 3px 0 #bbb,
+               0 4px 0 #b9b9b9,
+               0 5px 0 #aaa,
+               0 6px 1px rgba(0,0,0,.1),
+               0 0 5px rgba(0,0,0,.1),
+               0 1px 3px rgba(0,0,0,.3),
+               0 3px 5px rgba(0,0,0,.2),
+               0 5px 10px rgba(0,0,0,.25),
+               0 10px 10px rgba(0,0,0,.2),
+               0 20px 20px rgba(0,0,0,.15);
+  padding-top: 80px;
+}
+.clear-fix {
+  overflow: auto;
+}
+.education-entry,
+.work-entry,
+.project-entry {
+  padding: 0 5%;
+}
+#projects {
+  background-color: #fff;
+  font-size: 30px; 
+  margin-bottom: 70px;
+}
+h1 {
+  font-size: 40px;
+  color: #f5a623;
+  line-height: 48px;
+  display: inline;
+}
+h2 {
+  font-weight: bold;
+  font-size: 24px;
+  color: #999;
+  line-height: 29px;
+  padding: 10px;
+}
+h3 {
+  font-style: italic;
+  font-size: 20px;
+  color: #000;
+  line-height: 22px;
+}
+h4 {
+  font-weight: bold;
+  font-size: 14px;
+  color: #4a4a4a;
+  line-height: 17px;
+}
+h2,
+h3,
+h4,
+h5 {
+  padding:10px 5%;
+}
+.date-text {
+  font-style: italic;
+  font-size: 14px;
+  color: #999;
+  line-height: 16px;
+  float: left;
+}
+.location-text {
+  font-style: italic;
+  font-size: 14px;
+  color: #999;
+  line-height: 16px;
+  float: right;
+}
+p {
+  font-size: 14px;
+  color: #333;
+  line-height: 21px;
+}
+a {
+  color: grey;
+  text-decoration: none;
+  margin-top: 10px;
+  display: block;
+}
+.welcome-message {
+  font-style: italic;
+  font-size: 38px;
+  color: #f3f3f3;
+  line-height: 28px;
+}
+#skills-h3 {
+  color: #f5ae23;
+  display: none;
+}
+.orange {
+  background-color: #47A333;
+}
+.orange-text {
+  color: #f5ae23;
+  font-size: 20px;
+  font-style: italic;
+  font-weight: 600;
+}
+.white-text {
+  font-weight: bold;
+  color: #fff;
+  font-size: 19px;
+}
+#education{
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+.education-entry{
+  padding-top: 25px;
+}
+.education-entry a {
+  color: #669900;
+  font-family: 'Alice', serif;
+  font-size: 25px;
+}
+.education-entry a:hover {
+  color: #28A23E;
+  text-decoration: underline;
+}
+.padding{
+  padding-bottom: 2px;
+}
+.gray {
+  background-color: #F3F3F3;
+}
+.dark-gray {
+  background-color: #4a4a4a;
+}
+.dark-gray h2 {
+  color: #fff;
+  font-size: 35px;
+  font-family: 'Alice', serif;
+}
+#header {
+  background: linear-gradient(#47A333, transparent 90%),
+              linear-gradient(0deg, #47471A, transparent),
+              no-repeat center;
+  font-size: 18px;
+  font-family: 'Alice', serif;
+  margin-top: 53px;
+}
+#name {
+  font-family: 'Alice', serif;
+  text-shadow: 0 1px 0 #ccc,
+               0 2px 0 #c9c9c9,
+               0 3px 0 #bbb,
+               0 4px 0 #b9b9b9,
+               0 5px 0 #aaa,
+               0 6px 1px rgba(0,0,0,.1),
+               0 0 5px rgba(0,0,0,.1),
+               0 1px 3px rgba(0,0,0,.3),
+               0 3px 5px rgba(0,0,0,.2),
+               0 5px 10px rgba(0,0,0,.25),
+               0 10px 10px rgba(0,0,0,.2),
+               0 20px 20px rgba(0,0,0,.15);
+}
+#role {
+  font-size: 35px;
+  display: inline-block;
+}
+#name,#role {
+  color: #fff;
+}
+.fixed-nav-bar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 9999;
+  width: 100%;
+  height: 35px;
+  text-align:center;
+  padding:10px 0;
+  margin:20px 0 0;
+  background-color: #47A333; 
+  margin-top: -1px;
+}
+
+nav ul{
+  list-style:none;
+  margin:0 10px;
+  padding:0;
+}
+nav li{
+  display:inline-block;
+  font-family: 'Alice', serif;
+  font-size:22px;
+  margin-top: -20px;
+}
+
+nav a {
+  font-weight:800;
+  padding:15px 10px;
+  color: #fff;
+}
+nav a:hover {
+  background-color: #3DF869;
+  opacity: 1;
+}
+.summary {
+  margin-top: 50px;
+  margin-bottom: 70px;
+}
+#summary-1{
+  font-size: 45px;
+  color: #C4F0BD;
+  text-shadow: 0 1px 0 #ccc,
+               0 2px 0 #c9c9c9,
+               0 3px 0 #bbb,
+               0 4px 0 #b9b9b9,
+               0 5px 0 #aaa,
+               0 6px 1px rgba(0,0,0,.1),
+               0 0 5px rgba(0,0,0,.1),
+               0 1px 3px rgba(0,0,0,.3),
+               0 3px 5px rgba(0,0,0,.2),
+               0 5px 10px rgba(0,0,0,.25),
+               0 10px 10px rgba(0,0,0,.2),
+               0 20px 20px rgba(0,0,0,.15);
+}
+#summary-p{
+  margin-top: 20px;
+  color: grey;
+  font-size: 19px;
+  font-style: normal;
+  font-family: 'Alice', serif;
+  font-weight: 500;
+}
+.project-entry{
+  margin-top: 30px;
+  font-family: 'Alice', serif;
+  font-size: 29px;
+  font-weight: 500;
+  color: grey;
+}
+.project-entry a{
+  color: #669900;
+}
+.project-entry a:hover{
+  color: #28A23E;
+  text-decoration: underline;
+}
+#projects-1 {
+  font-size: 38px;
+  color: #C4F0BD;
+  text-shadow: 0 1px 0 #ccc,
+               0 2px 0 #c9c9c9,
+               0 3px 0 #bbb,
+               0 4px 0 #b9b9b9,
+               0 5px 0 #aaa,
+               0 6px 1px rgba(0,0,0,.1),
+               0 0 5px rgba(0,0,0,.1),
+               0 1px 3px rgba(0,0,0,.3),
+               0 3px 5px rgba(0,0,0,.2),
+               0 5px 10px rgba(0,0,0,.25),
+               0 10px 10px rgba(0,0,0,.2),
+               0 20px 20px rgba(0,0,0,.15)
+}
+#project-des{
+  font-size: 19px;
+  font-style: normal;
+  font-family: 'Alice', serif;
+  font-weight: 500;
+  color: grey;
+}
+.work-entry{
+  margin-top: 40px;
+  margin-bottom: 40px;
+  color: #C4F0BD;
+}
+.work-entry a {
+  color: #669900;
+  font-family: 'Alice', serif;
+  font-size: 28px;
+
+}
+.work-entry a:hover {
+  color: #28A23E;
+  text-decoration: underline;
+}
+.work-entry p{
+  font-family: 'Alice', serif;
+  font-size: 19px;
+  font-weight: 500;
+  color: grey;
+}
+#online-left{
+  text-decoration: underline;
+  font-style: italic;
+  color: green;
+  font-size: 29px;
+  margin-left: auto;
+}
+.education-entry {
+  padding-top: 10px;
+  font-size: 19px;
+  font-style: normal;
+  font-family: 'Alice', serif;
+  font-weight: 500;
+
+}
+.flex-box {
+  display: -webkit-flex;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  padding: 1px;
+  padding-top: 8px;
+  padding-bottom: 8px;
+}
+.center-content {
+  padding: 2.5% 5%;
+}
+ul {
+  list-style-type: none;
+}
+.project-entry img {
+  padding: 10px;
+  width: 400px;
+  height: 250px;
+}
+.biopic {
+  float: left;
+  padding: 10px;
+  width: 200px;
+  text-align: center;
+  display: none;
+  border-radius: 150px;
+}
+span {
+  padding: 5px;
+}
+#lets-connect {
+  text-align: center;
+}
+#footerContacts {
+  font-size: 22px;
+  background-color: #47A333;
+}
+footer{
+  font-size:0.80em;
+  text-align:center;
+  padding-top: 55px;
+  padding-bottom: 3px;
+  color: #747704;
+  padding-top: 1px;
+  font-family: 'Alice', serif;
+  background-color: #47A333;
+  margin-top: -25px;
+}
+
+footer a {
+  opacity:1;
+  display: inline-block;
+  padding-right: 4px;
+  padding-bottom: 5px;
+}
+
+footer a:hover{
+  opacity:1;
+}
+
+footer a img{
+  border-radius: 6px;
+  height:35px;
+  width:35px;
+}
+/*******************************************
+MEDIA QUERIES
+********************************************/
+@media only screen and (max-width: 1024px) {
+  #lets-connect {
+    margin-top: 5%;
+  }
+}
+@media only screen and (max-width:900px) {
+  .biopic {
+    width: 175px;
+  }
+}
+@media only screen and (max-width: 750px) {
+  #lets-connect {
+    margin-top: 10%;
+  }
+  .biopic {
+    width: 150px;
+  }
+  .welcome-message {
+    display: none;
+  }
+}
+#map {
+  display: block;
+  height: 100%;
+  margin: 0 5%;
+}
+#mapDiv {
+  height: 400px;
+  width: 100%;
+  padding-bottom: 5%;
+  margin-bottom: 70px;
+}
+@media only screen and (min-width: 750px) {
+  #skills-h3,
+  .biopic {
+    display: block;
+  }
+}
+@media only screen and (max-width: 750px) {
+  #header {
+    text-align: center;
+  }
+  body {
+    text-align: center;
+    display: inline-block;
+  }
+}
+@media only screen and (min-width: 320px) {
+  #name {
+    font-size: 55px;
+  }
+  #role {
+    font-size: 30px;
+  }
+}
